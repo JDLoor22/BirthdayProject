@@ -1,0 +1,104 @@
+body {
+  margin: 50;
+  padding: 50;
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  max-width: 40%; /*TO ADJUST THE IMG SIZE*/
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#countdown > div {
+  margin: 0 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#shareButton {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#shareButton:hover {
+  background-color: #2980b9;
+}
+
+/* Countadown */
+
+#countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#countdown > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+#countdown > div > .value {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#countdown > div > .label {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Frames with colors */
+#days {
+  border: 2px solid #f39c12;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#hours {
+  border: 2px solid #e74c3c;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#minutes {
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#seconds {
+  border: 2px solid #2ecc71;
+  border-radius: 5px;
+  padding: 5px;
+}
+

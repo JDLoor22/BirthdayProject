@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Countdown</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <br>
+    
+    <div class="container"> <br>
+      <form id="birthdayForm">
+        <h3 label  style="color:blue; align-content: flex-end;" for="birthdayDate">Insert your birthday here:</label></h3>
+        <input type="date" id="birthdayDate" required>
+        <button type="submit" id="setBirthdayButton">Set Your Birthday</button>
+    </form>
+        <img src="IMG/futurebirthday.png" alt="Birthday Image">
+        <div id="countdown">
+          <div>
+              <div id="days" class="value">0</div>
+              <div class="label">DAYS</div>
+          </div>
+          <div>
+              <div id="hours" class="value">0</div>
+              <div class="label">HOURS</div>
+          </div>
+          <div>
+              <div id="minutes" class="value">0</div>
+              <div class="label">MINUTES</div>
+          </div>
+          <div>
+              <div id="seconds" class="value">0</div>
+              <div class="label">SECONDS</div>
+          </div>
+        </div>
+        
+        <br>
+        <button id="shareButton">Share it</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
